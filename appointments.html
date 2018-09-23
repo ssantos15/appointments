@@ -3,38 +3,42 @@
   <head>
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
-    <script src="js/jquery-3.3.1.js"></script>
-    <script src="js/scripts.js"></script>
+    <script src="js1/jquery-3.3.1.js"></script>
+    <script src="js1/scripts.js"></script>
     <title>Apointments</title>
   </head>
   <body>
     <div class="container">
-      <h1>Appointment Scheduler</h1>
-      <p>Below you will be able to schedule your appointments by filling out the form below.</p>
-      <div>
-        <form id ="formOne">
-          <div class="form-group">
-            <label for="name">Name</label>
-            <input id="name" class="form-control" type="text">
-          </div>
-          <div class="form-group">
-            <label for ="description">Description of appointment</label>
-            <input id="description" class="form-control" type="text">
-          </div>
-          <div class="form-group">
-            <label for="date">Date</label>
-            <input id="date" class="form-control" type="text">
-          </div>
-          <div class ="form-group">
-            <label for="time">Time</label>
-            <input id="time" class="form-control" type="text">
-
-            <button type="submit" class="btn">Submit</button>
-          </div>
-        </form>
+      <div class="intro">
+        <h1>Appointment Scheduler</h1>
+        <p><em>Below you will be able to schedule your appointments by filling out the form below.</em></p>
       </div>
-      <div id="appointmentBooked">
-        <p>Hi <span class="name"></span>, your appointment is booked for <span class="date"></span> at <span class="time"></span>.  Reserved Successfully.</p>
+      <div>
+        <div class="row">
+          <div class="col-md-6">
+            <form id ="formOne">
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input id="name" class="form-control" type="text">
+              </div>
+              <div class="form-group">
+                <label for ="description">Description of appointment</label>
+                <input id="description" class="form-control" type="text">
+              </div>
+              <div class="form-group">
+                <label for="date">Date</label>
+                <input id="date" class="form-control" type="text">
+              </div>
+              <div class ="form-group">
+                <label for="time">Time</label>
+                <input id="time" class="form-control" type="text">
+              </div>
+              <button type="submit" class="btn btn-dark">Submit</button>
+            </form>
+          </div>
+          <div class="col-md-6" id="image">
+          </div>
+        </div>
       </div>
     </div>
   </body>
