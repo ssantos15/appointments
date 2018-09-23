@@ -1,12 +1,18 @@
 .intro {
   text-align: center;
   margin-top: 3%;
-  margin-bottom: 17%;
   border: 1px solid gray;
   background-image: radial-gradient(white,silver,black);
 }
 
+#formOne {
+  margin-top:43%;
+}
+
 #image {
-  background-image: url(../img/doctor.jpg);
-  background-size: 100%;
+  margin-top:15%;
+}
+
+body {
+  background-image: repeating-linear-gradient(to right, #e0eafc, #cfdef3);
 }
